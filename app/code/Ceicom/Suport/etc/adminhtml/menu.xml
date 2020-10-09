@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ceicom_Suport::menuceicom" title="Ceicom" module="Ceicom_Suport" resource="Ceicom_Suport::menuceicom" sortOrder="10"/>
+        <add id="Ceicom_Suport::itemsuport" title="Suporte" module="Ceicom_Suport" resource="Ceicom_Suport::itemsuport" parent="Ceicom_Suport::menuceicom" action="suport/suport"/>
+    </menu>
+</config>
