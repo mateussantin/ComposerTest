@@ -1,0 +1,25 @@
+{
+    "name": "ceicom/suport",
+    "description": "Módulo de Suporte da empresa Ceicom para Magento 2",
+    "homepage": "https://github.com/mateussantin/ComposerTest",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Mateus Santin Junior",
+            "homepage": "https://github.com/mateussantin"
+        },
+        {
+            "name": "Ceicom | Marketing e Tecnologia Digital",
+            "homepage": "https://ceicom.com.br/"
+        }
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
