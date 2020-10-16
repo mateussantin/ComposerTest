@@ -1,6 +1,7 @@
 {
     "name": "ceicom/suport",
     "description": "Módulo de Suporte da empresa Ceicom para Magento 2",
+    "keywords": ["ceicom", "mateussantin", "magento2"],
     "homepage": "https://github.com/mateussantin/ComposerTest",
     "version": "1.0.0",
     "license": [
@@ -16,8 +17,17 @@
             "homepage": "https://ceicom.com.br/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mateussantin/ComposerTest"
+        }
+    ],
     "type": "magento2-module",
     "autoload": {
+        "psr-4": { 
+            "Ceicom\\Suport\\": "" 
+        },
         "files": [
             "registration.php"
         ]
