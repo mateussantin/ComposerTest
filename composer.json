@@ -3,6 +3,7 @@
     "description": "Módulo de Suporte da empresa Ceicom para Magento 2",
     "keywords": ["ceicom", "mateussantin", "magento2"],
     "homepage": "https://github.com/mateussantin/ComposerTest",
+    "type": "magento2-module",
     "version": "1.0.0",
     "license": [
         "MIT"
@@ -10,11 +11,15 @@
     "authors": [
         {
             "name": "Mateus Santin Junior",
-            "homepage": "https://github.com/mateussantin"
+            "email": "mateussantin.jr@gmail.com",
+            "homepage": "https://github.com/mateussantin",
+            "role": "Developer"
         },
         {
             "name": "Ceicom | Marketing e Tecnologia Digital",
-            "homepage": "https://ceicom.com.br/"
+            "email": "suporte@ceicom.com.br",
+            "homepage": "https://ceicom.com.br/",
+            "role": "Company"
         }
     ],
     "repositories": [
@@ -23,10 +28,12 @@
             "url": "https://github.com/mateussantin/ComposerTest"
         }
     ],
-    "type": "magento2-module",
+    "require": {
+        "mateussantin/ComposerTest": "dev-master"
+    },
     "autoload": {
         "psr-4": { 
-            "Ceicom\\Suport\\": "" 
+            "mateussantin\\ComposerTest\\": "" 
         },
         "files": [
             "registration.php"
